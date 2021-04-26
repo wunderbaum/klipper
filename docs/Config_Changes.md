@@ -6,6 +6,12 @@ All dates in this document are approximate.
 
 # Changes
 
+20210426: The gcode_macro `default_parameter_<name>` config option is
+deprecated.  Use the `params` pseduo-variable to access macro
+parameters.  Other methods for accessing macro parameters will be
+removed in the near future.  See the [Command Templates
+document](Command_Templates.md#macro-parameters) for examples.
+
 20210325: Support for the `pin_map` config option is deprecated. Use
 the [sample-aliases.cfg](../config/sample-aliases.cfg) file to
 translate to the actual micro-controller pin names. The `pin_map`
